@@ -24,6 +24,6 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           application_name: springtest
           environment_name: Springtest-env
-          version_label: vol-0118 #12345
+          version_label: vol-0119 #12345
           region: ap-south-1 #us-west-2
           deployment_package: target/cicd.github.elasticbeanstalk-0.0.1-SNAPSHOT.jar
