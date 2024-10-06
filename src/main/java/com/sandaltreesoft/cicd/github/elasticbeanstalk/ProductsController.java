@@ -12,6 +12,6 @@ public class ProductsController {
     @GetMapping
     public String greet()
     {
-        return "Hello from elastic bean stalk";//comment
+        return "Hello from AWS";//comment
     }
 }
