@@ -9,9 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("products")
 public class ProductsController {
 
+
     @GetMapping
     public String greet()
     {
-        return "Hello from UK";//comment
+
+
+        return "Hello from France";//comment
     }
 }
