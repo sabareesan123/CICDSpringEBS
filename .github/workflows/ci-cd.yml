@@ -22,8 +22,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: EbsDemo  # MyJavaApp springtest
-          environment_name: EbsDemo-env    # MyJavaApp Springtest-env
-          version_label: vol-0120 #12345  myVersionLabel123
+          application_name: redHotel  # MyJavaApp springtest EbsDemo
+          environment_name: RedHotel-env      # MyJavaApp Springtest-env EbsDemo-env
+          version_label: vol-0121 #12345  myVersionLabel123
           region: ap-south-1 #us-west-2 # af-south-1
           deployment_package: target/cicd.github.elasticbeanstalk-0.0.1-SNAPSHOT.jar

@@ -12,6 +12,6 @@ public class ProductsController {
     @GetMapping
     public String greet()
     {
-        return "Hello from Nigeria";//comment
+        return "Hello from UK";//comment
     }
 }
